@@ -9,7 +9,7 @@ cd anastatix-motcert-app
 
 改后端IP，共四处，搜索后结果如下图
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 修改成新的IP后git push推到代码库
 

@@ -2,7 +2,7 @@
 
 ## 根目录说明
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
 * app----------------------本目录下存放fabric应用层的后端服务代码
 * files---------------------本目录下临时存放下载文件时从区块链上查询到的pdf文件
@@ -18,7 +18,7 @@
 
 ## app目录说明
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 * business---------------本目录存放业务逻辑处理的代码，主要包含证书数据的增改查，和一些业务判断，逻辑处理。
 * chaincode-------------本目录存放智能合约，会被安装到fabric网络节点中，运行在专用容器里。
@@ -37,7 +37,7 @@
 
 ## fixtures目录说明
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 * artifacts----------------本目录存放创世区块文件、channel tx文件等
 * bin-------------------------本目录存放可以在ubuntu16.04下执行的可执行文件configtxgen、cryptogen，这两个文件用来生channel tx文件、创世区块文件、加密文件

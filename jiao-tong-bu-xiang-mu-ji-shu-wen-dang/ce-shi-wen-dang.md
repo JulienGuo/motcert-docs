@@ -48,7 +48,7 @@ application/json
 {% endapi-method-spec %}
 {% endapi-method %}
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 {% api-method method="post" host="http://ip:port/v1/logout" path="" %}
 {% api-method-summary %}
@@ -182,7 +182,7 @@ application/json
 {% endapi-method-spec %}
 {% endapi-method %}
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 {% api-method method="get" host="http://ip:port/v1/certificate/{certId}" path="" %}
 {% api-method-summary %}
@@ -239,7 +239,7 @@ application/json
 {% endapi-method-spec %}
 {% endapi-method %}
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 {% api-method method="post" host="http://ip:port/v1/changeStatus" path="" %}
 {% api-method-summary %}
@@ -291,7 +291,7 @@ application/json
 {% endapi-method-spec %}
 {% endapi-method %}
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 {% api-method method="post" host="http://ip:port/v1/certificate/openList" path="" %}
 {% api-method-summary %}
@@ -448,7 +448,7 @@ application/json
 {% endapi-method-spec %}
 {% endapi-method %}
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 {% api-method method="post" host="http://ip:port/v1/certificate/draftList" path="" %}
 {% api-method-summary %}
@@ -685,7 +685,7 @@ application/json
 {% endapi-method-spec %}
 {% endapi-method %}
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 {% api-method method="post" host="http://ip:port/v1/certificate/deletedList" path="" %}
 {% api-method-summary %}
@@ -902,7 +902,7 @@ application/json
 {% endapi-method-spec %}
 {% endapi-method %}
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 
 
@@ -952,7 +952,7 @@ multipart/form-data
 {% endapi-method-spec %}
 {% endapi-method %}
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 {% api-method method="get" host="http://ip:port/v1/downloadFile/{certId}" path="" %}
 {% api-method-summary %}
@@ -980,5 +980,5 @@ multipart/form-data
 {% endapi-method-spec %}
 {% endapi-method %}
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 

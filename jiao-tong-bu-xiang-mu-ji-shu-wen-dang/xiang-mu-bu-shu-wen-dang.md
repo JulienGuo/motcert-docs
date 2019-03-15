@@ -26,7 +26,7 @@ ssh-keygen
 
 连续回车三次，控制台输出如下图
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
  输出ssh key公钥
 
@@ -36,11 +36,11 @@ cat ~/.ssh/id_rsa.pub
 
  控制台输出内容如下
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 拷贝输出等公钥，添加到[https://gitlab.chainnova.com/profile/keys](https://gitlab.chainnova.com/profile/keys)
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 ## 下载代码
 
@@ -140,7 +140,7 @@ aws configure
 
 输入从aws获得的相应ID和Key，如无则联系本机构账户的管理员
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 登录
 
@@ -206,13 +206,13 @@ cp app.file app
 
 为了方便下次部署可以将当前云服务器在控制台界面保存为镜像快照，下次部署新的机器可以免去安装docker等工具软件的过程
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 
 
 保存后在IMAGES--&gt;AMIs可以浏览到，选中后点击Launch可以根据镜像创建新的云主机，这时得到的新主机软件环境已经具备上文安装的所有内容。
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 
 
