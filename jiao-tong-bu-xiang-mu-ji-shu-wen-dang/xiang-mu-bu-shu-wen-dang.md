@@ -2,7 +2,7 @@
 
 ## 准备服务器
 
-1. 登录aws，创建一台云主机。
+1. 登录华为云管理后端，创建一台云主机。
 2. 建议配置：
    1. 4核CPU
    2. 16G内存
@@ -70,7 +70,7 @@ chmod +x /usr/local/bin/docker-compose
 
 参考链接：[https://docs.docker.com/install/linux/docker-ce/ubuntu/\#os-requirements](https://docs.docker.com/install/linux/docker-ce/ubuntu/#os-requirements)
 
-如果有旧的版本，先删除，命令如下：
+如果有旧的版本，先删除，命令如下：（如果OS非ubuntu，其他类型的Linux，则需要更换命令工具，可参考docker官网说明）
 
 ```text
 apt-get remove docker docker-engine docker.io containerd runc
@@ -95,14 +95,6 @@ systemctl enable docker
 sudo reboot
 ```
 
-## 安装aws cli
-
-参考：[https://docs.amazonaws.cn/cli/latest/userguide/install-linux.html](https://docs.amazonaws.cn/cli/latest/userguide/install-linux.html)
-
-```text
-curl -O https://bootstrap.pypa.io/get-pip.py
-python3 get-pip.py --user
-```
 
 编辑环境变量配置脚本：
 
@@ -122,31 +114,7 @@ export PATH=~/.local/bin:$PATH
 source ~/.bashrc
 ```
 
-使用pip安装 AWS CLI
 
-```text
-pip install awscli --upgrade --user
-aws --version
-pip install awscli --upgrade --user
-```
-
-## 登录aws ecr dockerhub账户
-
-执行配置命令：
-
-```text
-aws configure
-```
-
-输入从aws获得的相应ID和Key，如无则联系本机构账户的管理员
-
-![](../.gitbook/assets/image%20%2822%29.png)
-
-登录
-
-```text
-$(aws ecr get-login --no-include-email --region cn-north-1)
-```
 
 ## 拉取需要的 docker images
 
