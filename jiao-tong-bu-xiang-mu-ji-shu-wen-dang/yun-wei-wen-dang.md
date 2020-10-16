@@ -54,7 +54,7 @@ cd /opt/gopath/src/gitlab.chainnova.com/motcert-backend/app
 
 ```text
 cd /opt/gopath/src/gitlab.chainnova.com/motcert-backend/app
-git pull origin dev-1.0.0:local
+git pull origin dev-1.4.2:local
 cp app.file app
 netstat -ntlp
 kill -9 [此处为旧的进程号]
@@ -71,7 +71,7 @@ kill -9 [此处为旧的进程号]
 
 ```text
 cd /opt/gopath/src/gitlab.chainnova.com/motcert-backend/app
-git pull origin dev-1.0.0:local
+git pull origin dev-1.4.2:local
 cp app.file app
 netstat -ntlp
 kill -9 [此处为旧的进程号]
@@ -98,8 +98,10 @@ kill -9 [此处为旧的进程号]
 cd /opt/gopath/src/gitlab.chainnova.com/motcert-backend
 apt install make
 make clean
-git pull origin dev-1.0.0:local
+git pull origin dev-1.4.2:local
 cd fixtures
+docker-compose -f docker-compose-couchdb.yaml up -d &
+
 docker-compose up &
 ```
 
