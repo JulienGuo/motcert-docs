@@ -51,8 +51,8 @@ cd /opt/gopath/src/gitlab.chainnova.com
 git clone ssh://git@gitlab.chainnova.com:7998/if/motcert-backend.git
 yes
 cd motcert-backend/
-git checkout -b local dev-1.0.0
-git pull origin dev-1.0.0:local
+git checkout -b local dev-1.4.2
+git pull origin dev-1.4.2:local
 ```
 
 ## 安装docker 环境
@@ -153,11 +153,11 @@ $(aws ecr get-login --no-include-email --region cn-north-1)
 拉取镜像
 
 ```text
-docker pull 370307265965.dkr.ecr.cn-north-1.amazonaws.com.cn/hyperledger/fabric-ccenv:amd64-1.3.0-HE
-docker pull 370307265965.dkr.ecr.cn-north-1.amazonaws.com.cn/hyperledger/fabric-orderer:amd64-1.3.0-HE
-docker pull 370307265965.dkr.ecr.cn-north-1.amazonaws.com.cn/hyperledger/fabric-peer:amd64-1.3.0-HE
-docker pull 370307265965.dkr.ecr.cn-north-1.amazonaws.com.cn/hyperledger/fabric-ca:amd64-1.3.0-HE
-docker pull 370307265965.dkr.ecr.cn-north-1.amazonaws.com.cn/hyperledger/fabric-couchdb:amd64-0.4.13-HE
+docker pull hyperledger/fabric-ccenv:amd64-1.4.2
+docker pull hyperledger/fabric-orderer:amd64-1.4.2
+docker pull hyperledger/fabric-peer:amd64-1.4.2
+docker pull hyperledger/fabric-ca:amd64-1.4.2
+docker pull hyperledger/fabric-couchdb:amd64-0.4.15
 ```
 
 ## 启动Fabric网络
